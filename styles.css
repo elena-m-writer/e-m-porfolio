@@ -434,8 +434,8 @@ a.two:hover {
   font-size: 16px;
   text-align: left;
   padding: 7px;
-  width: auto;
-  height: 300px;
+  width: 200px;
+  height: auto;
   border: 2px solid #025e53;
   border-radius: 3px;
 }
