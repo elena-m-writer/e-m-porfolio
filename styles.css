@@ -24,19 +24,16 @@ footer {
 /* IMAGES */
 
 .imgDisplay1 {
-  width: 40%;
+  width: 45%;
   height: auto;
-  padding-left: 60px;
-  padding-right: 60px;
-  padding-top: 10px;
-  padding-bottom: 20px;
+  padding: 10px;
 }
 
 .imgDisplay2 {
   float: right;
   margin-left: 10px;
   border-radius: 2px;
-  width: 40%;
+  width: 45%;
   height: auto;
 }
 
@@ -44,7 +41,7 @@ footer {
   float: left;
   margin-right: 10px;
   border-radius: 2px;
-  width: 35%;
+  width: 45%;
   height: auto;
 }
 
