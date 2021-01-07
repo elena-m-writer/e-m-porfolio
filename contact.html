@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Contact</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="styles.css">
+   <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@800&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="flexContainerNav">
+        <h2 class="flexBoxNav"><a class="navLink" href="index.html">Home</a></h2>
+        <h2 class="flexBoxNav"><a class="navLink" href="writing.html">Writing</a></h2>
+        <h2 class="flexBoxNav"><a class="navLink" href="creating.html">Creating</a></h2>
+        <h2 class="flexBoxNav"><a class="navLink" href="learning.html">Learning</a></h2>
+        <h2 class="flexBoxNav"><a class="highlightLink" href="contact.html">Contact</a></h2>
+    </header>
+
+    <div class="flexContainerTop">
+        <h2 class="flexBoxTop1">Get in Touch</h2>
+        <h3 class="flexBoxTop2">You can drop me an email using the form below, or you can find me on social media...</h3>
+    </div>
+
+    <div class="flexContainerButton">
+      <div class="flexBoxBody">
+        <a class="socialLinks" href="https://thenineteenthcenturynerd.wordpress.com" target="_blank"><button class="socialButton">Find me on wordpress</button></a>
+        <a class="socialLinks" href="https://twitter.com/The19thCNerd" target="_blank"><button class="socialButton">Follow me on Twitter</button></a>
+        <a class="socialLinks" href="https://www.linkedin.com/in/elena-martin-0aa2b9152/" target="_blank"><button class="socialButton">Connect on LinkedIn</button></a>
+      </div>
+    </div>
+
+    <form action="mailto:elena.m.writer@gmail.com" method="post" enctype="text/plain" id="contact-form">
+      <div class="formElement">
+        <label for="name">Name:
+          <input type="text" name="name" id="name" />
+        </label>
+      </div>
+      <div class="formElement">
+        <label for="email">Email:
+          <input type="text" name="email" id="email" />
+        </label>
+      </div>
+      <div class="formElement">
+        <label>Message:</label>
+        <br />
+        <textarea name="comments" rows="12" cols="35" id="message">Send me a message!</textarea>
+      </div>
+      <div>
+        <input type="submit" name="submit" value="Send" id="send"/>
+        <input type="reset" name="reset" value="Clear Form" id="reset"/>
+      </div>
+    </form>
+
+    <footer>
+      <div class="flexContainerFooter">
+        <div class="flexBoxFooter">
+          <ul>
+            <h4>Site Links</h4>
+            <li><a class="two" href="index.html">Home</a></li>
+            <li><a class="two" href="writing.html">Writing</a></li>
+            <li><a class="two" href="creating.html">Creating</a></li>
+            <li><a class="two" href="learning.html">Learning</a></li>
+            <li><a class="two" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+   
+        <div class="flexBoxFooter">
+          <ul>
+            <h4>Social Media</h4>
+            <li><a class="two" href="https://thenineteenthcenturynerd.wordpress.com/" target="_blank">Blog</a></li>
+            <li><a class="two" href="https://twitter.com/The19thCNerd" target="_blank">Twitter</a></li>
+            <li><a class="two" href="https://www.linkedin.com/in/elena-martin-0aa2b9152/" target="_blank">LinkedIn</a></li>
+            <li><a class="two" href="https://www.goodreads.com/user/show/27356902-elena" target="_blank">Goodreads</a></li>
+            <li><a class="two" href="https://www.peopleperhour.com/freelancer/elena-martin-freelance-writer-vnwjnyx" target="_blank">People Per Hour</a></li>
+          </ul>
+        </div>
+      </div>
+      </footer>
+
+</body>
+</html>
