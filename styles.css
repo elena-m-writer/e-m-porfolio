@@ -148,20 +148,6 @@ a.two:hover {
   text-decoration: underline;
 }
 
-/* Buttons */
-
-.socialButton {
-  height: 90px;
-  width: 400px;
-  max-width: 100%;
-  background-color: #013a33;
-  border: 2px solid #013a33;
-  border-radius: 5px;
-  font-family: 'Catamaran', sans-serif;
-  color: white;
-  font-size: 24px;
-}
-
 /* FLEX CONTAINERS */
 
 .flexContainerNav {
@@ -189,6 +175,8 @@ a.two:hover {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
 }
 
 .flexContainerBottom {
@@ -288,6 +276,18 @@ a.two:hover {
   text-align: center;
   padding: 30px;
   margin: 0;
+}
+
+.flexBoxButton {
+  height: 90px;
+  width: 400px;
+  max-width: 100%;
+  background-color: #013a33;
+  border: 2px solid #013a33;
+  border-radius: 5px;
+  font-family: 'Catamaran', sans-serif;
+  color: white;
+  font-size: 24px;
 }
 
 .flexBoxBottom1 {
