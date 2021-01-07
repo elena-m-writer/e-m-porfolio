@@ -169,7 +169,8 @@ a.two:hover {
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .flexContainerTop {
@@ -211,9 +212,8 @@ a.two:hover {
     font-family: 'Catamaran', sans-serif;
     color: white;
     text-align: center;
-    padding-right: 100px;
-    padding-left: 100px;
-    width: 50px;
+    width: 150px;
+    padding: 5px;
 }
 
 .flexBoxTop1 {
