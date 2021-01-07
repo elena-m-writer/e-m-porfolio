@@ -29,7 +29,8 @@
         <a class="socialLinks" href="https://www.linkedin.com/in/elena-martin-0aa2b9152/" target="_blank"><button class="flexBoxButton">Connect on LinkedIn</button></a>
     </div>
 
-    <form action="mailto:elena.m.writer@gmail.com" method="post" enctype="text/plain" id="contact-form">
+  <div class="flexContainerForm">
+    <form class="flexContainerForm" action="mailto:elena.m.writer@gmail.com" method="post" enctype="text/plain" id="contact-form">
       <div class="formElement">
         <label for="name">Name:
           <input type="text" name="name" id="name" />
@@ -45,11 +46,12 @@
         <br />
         <textarea name="comments" rows="12" cols="35" id="message">Send me a message!</textarea>
       </div>
-      <div>
+      <div class="formElement">
         <input type="submit" name="submit" value="Send" id="send"/>
         <input type="reset" name="reset" value="Clear Form" id="reset"/>
       </div>
     </form>
+  </div>
 
     <footer>
       <div class="flexContainerFooter">

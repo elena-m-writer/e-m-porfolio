@@ -383,7 +383,7 @@ a.two:hover {
 
 /* Mailto Form */
 
-form {
+.flexContainerForm {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -420,7 +420,7 @@ form {
   font-size: 17px;
   text-align: left;
   padding: 7px;
-  width: 200px;
+  width: 201px;
   height: auto;
   border: 2px solid #025e53;
   border-radius: 3px;
@@ -434,8 +434,8 @@ form {
   font-size: 16px;
   text-align: left;
   padding: 7px;
-  width: 350px;
-  height: auto;
+  width: auto;
+  height: 300px;
   border: 2px solid #025e53;
   border-radius: 3px;
 }
@@ -448,8 +448,6 @@ form {
   color: white;
   border: 2px solid #025e53;
   border-radius: 3px;
-  width: 150px;
-  height: auto;
 }
 
 #reset {
@@ -460,6 +458,4 @@ form {
   color: white;
   border: 2px solid #025e53;
   border-radius: 3px;
-  width: 150px;
-  height: auto;
 }
