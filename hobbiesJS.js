@@ -17,5 +17,5 @@ function mouseOverYoga() {
 }
 
 function mouseOutYoga() {
-    document.getElemenyById("yoga").style.color = "#013a33";
+    document.getElementById("yoga").style.color = "#013a33";
 }
