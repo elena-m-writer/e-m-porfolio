@@ -24,8 +24,7 @@ footer {
 /* IMAGES */
 
 .imgDisplay1 {
-  width: 45%;
-  height: auto;
+  float: center;
   padding: 10px;
 }
 
