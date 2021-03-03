@@ -24,8 +24,9 @@ footer {
 /* IMAGES */
 
 .imgDisplay1 {
-  align-items: center;
-  justify-items: center;
+  float: right;
+  height: 40%;
+  width: auto;
   padding: 10px;
 }
 
