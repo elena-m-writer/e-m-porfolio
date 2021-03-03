@@ -24,6 +24,8 @@ footer {
 /* IMAGES */
 
 .imgDisplay1 {
+  align-items: center;
+  justify-items: center;
   padding: 10px;
 }
 
@@ -260,22 +262,6 @@ a.two:hover {
   text-align: left;
   padding: 30px;
   margin: 0;
-}
-
-.flexBoxBody3Img {
-  font-family: 'Source Sans Pro', sans-serif;
-  Background-color: #025e53;
-  color: #ffffff;
-  font-weight: lighter;
-  font-size: 21px;
-  line-height: 35px;
-  text-align: left;
-  padding: 30px;
-  margin: 0;
-  align-items: center;
-  align-content: center;
-  justify-items: center;
-  justify-content: center;
 }
 
 .flexBoxBody4 {
