@@ -276,6 +276,18 @@ a.two:hover {
   margin: 0;
 }
 
+.flexBoxBody3Right {
+  font-family: 'Source Sans Pro', sans-serif;
+  Background-color: #025e53;
+  color: #ffffff;
+  font-weight: lighter;
+  font-size: 21px;
+  line-height: 35px;
+  text-align: right;
+  padding: 30px;
+  margin: 0;
+}
+
 .flexBoxBody4 {
   font-family: 'Source Sans Pro', sans-serif;
   background-color: #025e53;
