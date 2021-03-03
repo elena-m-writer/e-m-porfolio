@@ -24,9 +24,6 @@ footer {
 /* IMAGES */
 
 .imgDisplay1 {
-  float: right;
-  height: 40%;
-  width: auto;
   padding: 10px;
 }
 
@@ -44,6 +41,20 @@ footer {
   border-radius: 2px;
   width: 40%;
   height: auto;
+}
+
+.imgDisplay4 {
+  float: left;
+  height: 40%;
+  width: auto;
+  padding: 10px;
+}
+
+.imgDisplay5 {
+  float: right;
+  height: 40%;
+  width: auto;
+  padding: 10px;
 }
 
 
