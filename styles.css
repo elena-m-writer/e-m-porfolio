@@ -49,6 +49,7 @@ footer {
   width: auto;
   padding-right: 10px;
   border-radius: 2px;
+  overflow: hidden;
 }
 
 .imgDisplay5 {
@@ -57,6 +58,7 @@ footer {
   width: auto;
   padding-left: 10px;
   border-radius: 2px;
+  overflow: hidden;
 }
 
 
