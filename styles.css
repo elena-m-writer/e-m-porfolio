@@ -47,16 +47,16 @@ footer {
   float: left;
   height: 40%;
   width: auto;
-  padding-right: 0 10px;
-  border-radius: 4px;
+  padding-right: 10px;
+  border-radius: 2px;
 }
 
 .imgDisplay5 {
   float: right;
   height: 40%;
   width: auto;
-  padding-left: 0 10px;
-  border-radius: 4px;
+  padding-left: 10px;
+  border-radius: 2px;
 }
 
 
